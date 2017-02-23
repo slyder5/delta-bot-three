@@ -1,6 +1,6 @@
-# DB3 - Delta Bot 3 [![Build Status](https://travis-ci.org/MystK/delta-bot-three.svg?branch=master)](https://travis-ci.org/MystK/delta-bot-three)
+# LB3 - Lambda Bot 1 [![Build Status](https://travis-ci.org/MystK/delta-bot-three.svg?branch=master)](https://travis-ci.org/MystK/delta-bot-three)
 ## Summary
-The third rewrite of delta bot, created for [reddit.com/r/changemyview](https://www.reddit.com/r/changemyview). This bot will be written in NodeJS.
+The first write of lambda bot, created for [reddit.com/r/askGSM], forked from the third rewrite of delta bot, created for [reddit.com/r/changemyview](https://www.reddit.com/r/changemyview). This bot will be written in NodeJS.
 
 ## Contributing
 * Any contributions are much appreciated.
