@@ -1,7 +1,7 @@
 {
-  "name": "delta-bot-three",
-  "version": "3.8.3",
-  "description": "The third rewrite of delta bot",
+  "name": "lambda-bot-one",
+  "version": "0.0.1",
+  "description": "The first write of lambda bot",
   "main": "dist/index.js",
   "scripts": {
     "start": "nodemon ./src/index.js -x babel-node -w ./i18n -w ./src -- --inspect --enable-delta-log",
