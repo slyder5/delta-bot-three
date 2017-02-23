@@ -18,7 +18,7 @@ class DeltaBoards {
     this.flags = flags // can be used to read the `isDebug` flag, used in RedditAPIDriver as well
   }
   // this method is called by DB3 main code. It starts
-  // the whole process of updating the Delta Boards
+  // the whole process of updating the Lambda Boards
   async initialStart() {
     // first, grab the credentials and bot version from this
     const { credentials, version } = this
@@ -147,28 +147,28 @@ _____
 
 ## Daily
 
-| Rank | Username | Deltas |
+| Rank | Username | Lambdas |
 | :------: | :------: | :------: |
 ${this.mapDeltaboardDataToTable(newHiddenParams.daily)}
 | |${newHiddenParams.updateTimes.daily}| |
 
 ## Weekly
 
-| Rank | Username | Deltas |
+| Rank | Username | Lambdas |
 | :------: | :------: | :------: |
 ${this.mapDeltaboardDataToTable(newHiddenParams.weekly)}
 | |${newHiddenParams.updateTimes.weekly}| |
 
 ## Monthly
 
-| Rank | Username | Deltas |
+| Rank | Username | Lambdas |
 | :------: | :------: | :------: |
 ${this.mapDeltaboardDataToTable(newHiddenParams.monthly)}
 | |${newHiddenParams.updateTimes.monthly}| |
 
 ## Yearly
 
-| Rank | Username | Deltas |
+| Rank | Username | Lambdas |
 | :------: | :------: | :------: |
 ${this.mapDeltaboardDataToTable(newHiddenParams.yearly)}
 | |${newHiddenParams.updateTimes.yearly}| |
@@ -200,7 +200,7 @@ ${stringifiedNewHiddenParams}
     const newTableToPutIn = `
 ###### Monthly Deltaboard
 
-| Rank | Username | Deltas |
+| Rank | Username | Lambdas |
 | :------: | :------: | :------: |
 ${this.mapDeltaboardDataToTable(newHiddenParams.monthly)}
 | |${parsedDate}| |
